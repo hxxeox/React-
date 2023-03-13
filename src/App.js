@@ -12,11 +12,20 @@ import UncontrolledComponent from './components/2-4Props/Extraction/2-10 Form/Un
 import State from './components/2-4Props/Extraction/3-3 Hook/State';
 import Reducer from './components/2-4Props/Extraction/3-3 Hook/Reducer';
 import WelcomeDialog from './components/2-4Props/Extraction/3-5 Composition/WelcomeDialog';
+import Dialog from './components/2-4Props/Extraction/3-6 Composition2/Dialog';
+import ThankyouDialog from './components/2-4Props/Extraction/3-6 Composition2/ThankyouDialog';
+import Input from './components/2-4Props/Extraction/3-7 HOC/Input';
+import Button from './components/2-4Props/Extraction/3-7 HOC/Button';
+
 
 function App() {
   return (
     <div className="App">
-      <WelcomeDialog />
+      <Input />
+      <Button />
+      {/* <ThankyouDialog /> */}
+      {/* <Dialog/> */}
+      {/* <WelcomeDialog /> */}
       {/* <br />
       <br />
       <State />
