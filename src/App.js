@@ -16,13 +16,15 @@ import Dialog from './components/2-4Props/Extraction/3-6 Composition2/Dialog';
 import ThankyouDialog from './components/2-4Props/Extraction/3-6 Composition2/ThankyouDialog';
 import Input from './components/2-4Props/Extraction/3-7 HOC/Input';
 import Button from './components/2-4Props/Extraction/3-7 HOC/Button';
+import Memo from './components/2-4Props/Extraction/3-8Memoization/Memo';
 
 
 function App() {
   return (
     <div className="App">
-      <Input />
-      <Button />
+      <Memo />
+      {/* <Input />
+      <Button /> */}
       {/* <ThankyouDialog /> */}
       {/* <Dialog/> */}
       {/* <WelcomeDialog /> */}
