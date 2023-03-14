@@ -1,4 +1,5 @@
 import './App.css';
+import Example from './components/2-4Props/Extraction/3-11Portal/Example'
 import ClassComponent2 from './components/2-4Props/Extraction/2-6 LifyCycle/ClassComponent';
 import Extraction from './components/2-4Props/Extraction/Extraction'
 import Composition from './components/2-4Props/Composition'
@@ -22,7 +23,9 @@ import Memo from './components/2-4Props/Extraction/3-8Memoization/Memo';
 function App() {
   return (
     <div className="App">
-      <Memo />
+      <Example />
+      {/* <Example /> */}
+      {/* <Memo /> */}
       {/* <Input />
       <Button /> */}
       {/* <ThankyouDialog /> */}
